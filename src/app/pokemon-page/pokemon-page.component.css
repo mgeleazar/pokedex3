@@ -1,0 +1,30 @@
+img.picture {
+  margin: auto;
+  width: 100px;
+}
+@media screen and (min-width: 320px) {
+  p {
+    font-size: 10px;
+  }
+  li {
+    font-size: 10px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  p {
+    font-size: 15px;
+  }
+   li {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  p {
+    font-size: 20px;
+  }
+   li {
+    font-size: 20px;
+  }
+}

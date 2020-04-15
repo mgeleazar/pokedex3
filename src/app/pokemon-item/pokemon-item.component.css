@@ -1,0 +1,72 @@
+button {
+  background-color: #ebf5f0;
+  border: 2px solid #263238;
+
+}
+
+button.pokemon {
+
+  width: 100%;
+
+}
+.picker {
+  /* border: 2px solid black; */
+  text-align: center;
+  font-size: 10px;
+  color: black;
+  text-decoration-line: none;
+  text-align: left;
+
+
+  padding-bottom: 5%;
+}
+
+.picker img{
+  height: 30px;
+}
+@media screen and (min-width: 320px) {
+  .picker {
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 6px;
+    color: black;
+    text-decoration-line: none;
+    text-align: left;
+  }
+  .picker img{
+    height: 20px;
+  }
+
+}
+@media screen and (min-width: 720px) {
+  .picker {
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 10px;
+    color: black;
+    text-decoration-line: none;
+    text-align: left;
+  }
+  .picker img{
+    height: 40px;
+  }
+
+}
+@media screen and (min-width: 1024px) {
+  .picker {
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    text-decoration-line: none;
+    text-align: left;
+  }
+  .picker img{
+    height: 50px;
+  }
+
+}
+
+
+
+

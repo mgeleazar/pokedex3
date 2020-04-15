@@ -1,0 +1,23 @@
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{id}}.png" class="picture">
+<p>
+  pokemon#:  {{id}}
+  
+</p>
+<p>
+  name: {{data.name}}
+</p>
+<p>
+  height: {{data.height}}
+</p>
+<p>
+  weight: {{data.weight}}
+</p>
+<p>types: </p>
+  <ul *ngFor="let type of data.types">
+    <li>{{type.type.name}}</li>
+  </ul>
+
+
+
+
+
